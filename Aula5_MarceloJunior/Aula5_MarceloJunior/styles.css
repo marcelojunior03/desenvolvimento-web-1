@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: #6dbb72;
+    background-image: url("imagens/folhas.png");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header,
+body > main,
+body > footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 200px;
+    background-image: url("imagens/paisagem.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+    padding-top: 15px;
+    color: #4f7f45;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+nav a {
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 12px;
+
+    padding: 8px 12px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+}
+
+main {
+    padding: 20px;
+    background: linear-gradient(#5b9b62, #8df08d);
+}
+
+main h2 {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
+
+main h3 {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
+
+main h4 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+main summary {
+    font-family: cursive;
+    font-style: italic;
+}
+
+main p,
+main li {
+	font-family: cursive;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+main img {
+    max-width: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #555555;
+    padding: 4px;
+}
+
+th {
+    background-color: #6eaa6e;
+}
+
+form {
+    font-size: 11px;
+}
+
+fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6b9d6b;
+}
+
+legend {
+    font-size: 11px;
+}
+
+input,
+select,
+textarea {
+    font-size: 11px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #4c814c;
+    color: #333333;
+    text-align: center;
+    font-size: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
